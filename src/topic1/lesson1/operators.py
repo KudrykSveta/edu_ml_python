@@ -7,7 +7,7 @@ if __name__ == '__main__':
     # Addition
     a = 5
     b = 2
-    print("Addition a + b = ", a + b)
+    print("Addition a + b = ", b + b)
     # Subtraction
     print("Subtraction 5 - 2 = ", 5 - 2)
     # Multiplication
@@ -47,14 +47,14 @@ if __name__ == '__main__':
     # Logical Operators 'or', 'and', 'not'
     print("Logical Operators 'or', 'and', 'not' ")
     print(True and True and True and True)
-    print(True and True and True and False)
+    print(True and True and True and True)
     print(False or False or True or False)
-    print(False or False or False or True)
+    print(False or False or False or False)
     print(not False or True)
 
 
 def operators_task1():
-    a = 0
+    a = 10
     return a
 
 
@@ -63,6 +63,6 @@ def operators_task2():
 
 
 def operators_task3():
-    a = 10
-    b = 5
-    return a < b
+    a = 5
+    b = 10
+    return a > b
